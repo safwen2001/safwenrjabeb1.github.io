@@ -1,0 +1,78 @@
+.hashtag {
+    background-color: #00d1b2; 
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.menu-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modal.is-active {
+    display: flex;
+}
+
+.delivery-section {
+    background: linear-gradient(to right, #f8f8f8, #e0e0e0);
+    padding: 50px 0;
+}
+
+.delivery-image {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.delivery-image img {
+    width: 100%;
+    height: auto;
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.delivery-image:hover img {
+    transform: scale(1.1);
+}
+
+.logos img {
+    max-width: 150px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.logos img:hover {
+    transform: scale(1.1);
+}
+
+.title {
+    color: #00d1b2; /
+}
+
+.image-effect {
+    border-radius: 10px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.image-effect:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.logos {
+    margin-top: 20px;
+}
+
+.logos img:hover {
+    transform: rotate(10deg);
+}
